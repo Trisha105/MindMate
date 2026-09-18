@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment / secrets
+.env
+**/.env
+.env.local
+**/.env.local
+.env.*.local
+**/.env.*.local
+
+# Build output
+dist/
+**/dist/
+
+# OS / editor files
+.DS_Store
+**/.DS_Store
+
+# Git internals from imported archives
+.git/
